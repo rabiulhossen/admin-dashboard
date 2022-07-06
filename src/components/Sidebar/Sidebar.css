@@ -39,12 +39,12 @@
   position: relative;
   transition: all 300ms ease-in;
   font-size: 15px;
-margin-left:1rem;
+margin-left:2rem;
   cursor: Url(../../../src/resources/administrator.png);
   cursor: pointer;
 }
 .active {
- background-color: rgb(208, 102, 250);
+ background-color: rgb(224, 166, 247);
   margin-left: 0;
 font-size: 18px;
 font-weight: 500;
@@ -56,4 +56,5 @@ font-weight: 500;
   width: 10px;
   height: 100%;
   background-color: rgba(236, 16, 144, 0.61);
+  margin-right: calc(1rem-8px);
 }

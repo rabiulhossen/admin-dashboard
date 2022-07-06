@@ -1,14 +1,35 @@
-import React from 'react'
-import './Sidebar.css'
-import admin from '../../resources/administrator.png'
+import React, { useState } from "react";
+import "./Sidebar.css";
+import admin from "../../resources/administrator.png";
+import { SidebarData } from "../../Data/Data";
 
 export default function Sidebar() {
+
+  const [select,setSelect] =useState(0)
   return (
     <div className="sidebar">
-     <div className="logo">
-          <img src={admin} alt="" />
-          <span></span>
-     </div>
+      {/* logo  */}
+      <div className="logo">
+        <img src={admin} alt="" />
+        <span>
+          sh
+          <span>o</span>
+        </span>
+        <span>ps</span>
+      </div>
+      <div className="menu">
+        {SidebarData.map((item, index) => {
+          return (
+            <div className={select=== index?'menuItem active':'menuItem'} key={index
+            
+            }
+            onClick={()=>setSelect(index)}>
+              <item.icon />
+              <span>{item.heading}</span>
+            </div>
+          );
+        })}
+      </div>
     </div>
-  )
+  );
 }

@@ -1,11 +1,12 @@
 import React from 'react'
-import Card from '../Card/Card'
+import Cards from '../cARDS/Cards'
+
 import './MiddleDash.css'
 
 export default function MiddleDash() {
   return (
    <div className="middleDash"><h1>Dashboard</h1>
-   <Card />
+   <Cards />
    
    </div>
   )

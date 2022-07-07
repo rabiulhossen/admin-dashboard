@@ -1,14 +1,11 @@
 .App {
-
-  background:linear-gradient(106deg, #ffe1bc 30%,
-  #ffcffd 50%,
-  #f3c6f1 90%);
+  background: linear-gradient(106deg, #ffe1bc 30%, #ffcffd 50%, #f3c6f1 90%);
   height: 100vh;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
 }
 
-.app-glass{
+.app-glass {
   display: grid;
   height: 96%;
   width: 96%;
@@ -16,10 +13,9 @@
   background-color: rgba(248, 248, 212, 0.603);
   overflow: hidden;
   margin: auto;
-grid-template-columns: repeat(3,1fr);
+  grid-template-columns:11rem auto 15rem;
   gap: 2rem;
 }
-
 
 /* 
 .App-logo {

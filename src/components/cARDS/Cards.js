@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 import "./Cards.css";
 
 
+
 const Cards = () => {
   return (
     <div className="cards">
@@ -11,11 +12,13 @@ const Cards = () => {
     return(
       <div className="parentContainer">
        
-       <Card title={card.title}
+       <Card 
+       key={card.id}
+       title={card.title}
         color={card.color}
         barValue={card.barValue}
         value={card.value}
-        png={card.png}
+        Png={card.png}
         series={card.series} />
       </div>
 

@@ -1,0 +1,41 @@
+.compactCard {
+  display: flex;
+  flex: 1;
+  height: 10rem !important;
+  color: rgb(3, 54, 66);
+  position: relative;
+  border-radius: 1rem;
+}
+.radicalBar {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+}
+.CircularProgressbar{
+     overflow: visible;
+     width: 6rem !important;
+}
+.CircularProgressbar-path{
+     stroke: rgba(170, 24, 238, 0.719) !important;
+     filter: drop-shadow(2px 4px 6px rgb(185, 138, 138));
+}
+.CircularProgressbar-trail{
+     display: none !important;
+}
+.CircularProgressbar-text{
+     fill: rgb(78, 70, 52) !important;
+     font-weight: 700;
+}
+.radicalBar>span{
+     font-size: 20px;
+}
+
+/* details  */
+.detailcard{
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     justify-content: space-between;
+}

@@ -1,5 +1,7 @@
 // sidebar data
 import { UilEstate, UilChart, UilProcess } from "@iconscout/react-unicons";
+import sales from '../resources/sales.png'
+import revenue from '../resources/revenue.png'
 
 export const SidebarData = [
   { icon: UilEstate, id: 1, heading: "Dashboard" },
@@ -15,9 +17,9 @@ export const cardData = [
       backGround: "linear-gradient (180deg,#bb67ff 0% ,#c484f3 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
-    barValue: 60,
+    barValue:80,
     value: "44444",
-    png: UilProcess,
+    Png:  sales,
     series: [
       {
         name: "Sales",
@@ -33,7 +35,7 @@ export const cardData = [
     },
     barValue: 60,
     value: "44444",
-    png: UilProcess,
+    Png:  revenue,
     series: [
       {
         name: "Sales",
@@ -47,9 +49,9 @@ export const cardData = [
       backGround: "linear-gradient (180deg,#bb67ff 0% ,#c484f3 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
-    barValue: 60,
+    barValue:40,
     value: "44444",
-    png: UilProcess,
+    Png: sales,
     series: [
       {
         name: "Sales",

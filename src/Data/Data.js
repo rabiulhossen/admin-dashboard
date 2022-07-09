@@ -14,7 +14,7 @@ export const cardData = [
   {
     title: "Sales",
     color: {
-      backGround: "linear-gradient (180deg,#bb67ff 0% ,#c484f3 100%)",
+      backGround: "#bb67ff ",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
     barValue:80,
@@ -30,7 +30,7 @@ export const cardData = [
   {
     title: "Revunue",
     color: {
-      backGround: "linear-gradient (180deg,#bb67ff 0% ,#c484f3 100%)",
+      backGround: "#bb67ff",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
     barValue: 60,
@@ -46,7 +46,7 @@ export const cardData = [
   {
     title: "earn",
     color: {
-      backGround: "linear-gradient (180deg,#bb67ff 0% ,#c484f3 100%)",
+      backGround: " #c484f3 ",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
     barValue:40,

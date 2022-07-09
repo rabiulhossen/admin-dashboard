@@ -13,7 +13,7 @@
   background-color: rgba(248, 248, 212, 0.603);
   overflow: hidden;
   margin: auto;
-  grid-template-columns:11rem auto 15rem;
+  grid-template-columns:11rem auto 18rem;
   gap: 2rem;
 }
 

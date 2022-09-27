@@ -24,7 +24,7 @@
      display: none !important;
 }
 .CircularProgressbar-text{
-     fill: rgb(78, 70, 52) !important;
+     fill: rgba(105, 184, 216, 0.781) !important;
      font-weight: 700;
 }
 .radicalBar>span{

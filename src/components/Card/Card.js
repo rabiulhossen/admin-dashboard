@@ -77,4 +77,14 @@ type='area'
   );
 };
 
+function ExpandCard({param,setExpand}){
+  return(
+    <div className="ExpandCard" >
+<div>
+  <UilTimes/>
+</div>
+    </div>
+  )
+}
+
 export default Card;

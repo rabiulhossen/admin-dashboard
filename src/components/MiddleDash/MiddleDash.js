@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../Card/Card'
 import Cards from '../cARDS/Cards'
 import BasicTable from '../Table/Table'
 

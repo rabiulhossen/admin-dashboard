@@ -16,6 +16,23 @@
    align-items: center;
    height: 4%;
 }
-.logo>img{
-width: 3rem;
+.logo > img {
+   width: 3rem;
+}
+.logo > span > span {
+   color: var(--pink);
+}
+
+.menu {
+   margin-top: 4rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.menuItem {
+   display: flex;
+
+   align-items: center;
+   gap: 1rem;
 }
